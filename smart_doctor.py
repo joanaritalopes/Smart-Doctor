@@ -5,7 +5,7 @@ The Smart Doctor - Skin Lesion Classification
 Parts included:
   Part 1 - CNNs vs. Vision Transformers (ResNet-18 vs. ViT-B/16 on DermaMNIST)
   Part 2 - Model Interpretability (GradCAM + ViT Attention Rollout)
-  Part 4 - RAG pipeline (bonus, requires local Ollama server)
+  Part 3 - RAG pipeline (bonus, requires local Ollama server)
 
 Dataset: DermaMNIST - 7-class skin lesion classification
   actinic keratoses | basal cell carcinoma | benign keratosis |
@@ -463,7 +463,7 @@ def visualize_attention_rollout(
     plt.tight_layout(); plt.show()
 
 
-# ─── Part 4 – RAG Pipeline ────────────────────────────────────────────
+# ─── Part 3 – RAG Pipeline ────────────────────────────────────────────
 
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Settings
 from llama_index.core.node_parser import SentenceSplitter
