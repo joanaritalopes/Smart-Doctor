@@ -51,7 +51,7 @@ Two complementary techniques applied to the same test images:
 
 Overlaid heatmaps reveal whether models focus on clinically relevant lesion regions or background artifacts.
 
-### Part 4 – RAG Pipeline (Bonus)
+### Part 3 – RAG Pipeline
 
 A local Retrieval-Augmented Generation pipeline using:
 - `llama-index` for document ingestion and vector indexing
@@ -65,7 +65,7 @@ Allows querying a corpus of dermatology documents with grounded, citation-backed
 ## Project Structure
 
 ```
-smart_doctor.py   # Main implementation (Parts 1, 2, 4)
+smart_doctor.py   # Main implementation
 ```
 
 Key components:
